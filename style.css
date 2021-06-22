@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+.navbar
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    background: rgba(0, 0, 0,0.6) !important;
+    padding: 20px 0;
+}
+.carousel-caption h5
+{
+    font-weight: 300;
+    color: white;
+    font-family: monospace;
+}
+.carousel-caption h1
+{
+    font-weight: bolder;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.carousel-caption p
+{
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn
+{
+    border: 2px hidden;
+    width: 40%;
+    padding: 15px 22px;
+    background: black;
+    border-radius: 5px;
+}
+.carousel-caption
+{
+    top: 15%;
+}
+.btn a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.btn:hover
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: grey;
+}
+.fa
+{
+    border-style: hidden;
+}
